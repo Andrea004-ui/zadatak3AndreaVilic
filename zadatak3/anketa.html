@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Anketa</title>
+		<link rel="stylesheet" href="stil3.css"/>
+
+		<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Arima">
+
+	</head>
+<body>
+<ul>
+	 <li><a class="active" href="index.html">Početna</a></li>
+	 <li><a href="recept.html">Recept za palačinke</a></li>
+	 <li><a href="anketa.html">Anketa</a></li>
+	</ul>
+	<h1 class="p1"><strong>Posjećenost stranice</strong></h1>
+	<p> Na ovoj stranici provesti će se <b>kratka anketa</b> kako bi imali evidenciju posjećenosti stranice!</p><br>
+	<form action="">
+			<b><i>Id:</b></i>
+			<input type="text" placeholder="Unesite svoj e-mail" id="username">
+			<br>
+			<br>
+		<fieldset>
+			<legend><b><i>Osobni podaci:</b></i></legend>
+				<label for="name">Ime:</label>
+					<input type="text" id="name" name="name"><br>
+				<label for="name">Prezime:</label>
+					<input type="text" id="name" name="name">
+		</fieldset>
+		<br>
+		
+			<i><b>Spol:</i></b><br>
+				<input type="radio" name="spol" value="žensko">Žensko<br>
+				<input type="radio" name="spol" value="muško">Muško<br>
+				<input type="radio" name="spol" value="drugo">Drugo<br>
+				<input type="radio" name="spol" value="ne_zelim_se_izjasniti">Ne želim se izjasniti<br>
+			<br>
+			<b><i>Datum rođenja:</b></i>
+			<input type="date" name="Rođendan"><br>
+			<br>
+		<label for="age"><i><b>Godine:</b></i></label>
+			<select id="age" name="age">
+				<option value="0-17">0-17</option>
+				<option value="18-24">18-24</option>
+				<option value="25-34">25-34</option>
+				<option value="35-44">35-44</option>
+				<option value="45-54">45-54</option>
+				<option value="55-64">55-64</option>
+				<option value="65+">65+</option>
+			</select><br>
+			<br>
+		<label for="country"><i><b>Odaberite državu:</i></b></label>
+			<select id="country" name="country">
+				<option value="hr">Hrvatska</option>
+				<option value="rs">Srbija</option>
+				<option value="bih">Bosna i Hercegovina</option>
+				<option value="slo">Slovenija</option>
+			    <option value="us">Sjedinjene Američke Države</option>
+				<option value="ca">Kanada</option>
+				<option value="de">Njemačka</option>
+				<option value="fr">Francuska</option>
+				<option value="it">Italija</option>
+				<option value="es">Španija</option>
+				<option value="uk">Ujedinjeno Kraljevstvo</option>
+				<option value="jp">Japan</option>
+				<option value="au">Australija</option>
+			</select>
+			<br>
+			<br>
+		<label for="browser"><i><b>Odaberite preglednik kojim se najčešće koristite:</i></b></label>
+			<input list="browsers" id="browser" name="browser">
+
+				<datalist id="browsers">
+					<option value="Chrome">
+					<option value="Firefox">
+					<option value="Safari">
+					<option value="Edge">
+				</datalist>
+				<br>
+				<br>
+		<label for="option"><i><b>Koliko često posegnete za izradom palačinki?</i></b></label><br>
+				<label>
+					<input type="radio" name="frequency" value="svakodnevno"> Svakodnevno
+				</label><br>
+				<label>
+					<input type="radio" name="frequency" value="nekoliko_puta_nedeljno"> Nekoliko puta nedjeljno
+				</label><br>
+				<label>
+					<input type="radio" name="frequency" value="jednom_nedeljno"> Jednom nedjeljno
+				</label><br>
+				<label>
+					<input type="radio" name="frequency" value="nekoliko_puta_mesecno"> Nekoliko puta mjesečno
+				</label><br>
+				<label>
+					<input type="radio" name="frequency" value="retko_nikada"> Rijetko ili nikada
+				</label><br>
+				<br>
+				
+		<label for="option"><i><b>Kako biste ocijenili jednostavnost recepta:</i></b></label><br>
+			<div class="rating">
+				<label>
+					<input type="radio" name="ease" value="izvrsno">
+				Izvrsno
+				</label>
+				<label>
+					<input type="radio" name="ease" value="dobro">
+				Dobro
+				</label>
+				<label>
+					<input type="radio" name="ease" value="prosjecno">
+				Prosječno
+				</label>
+				<label>
+					<input type="radio" name="ease" value="lose">
+				Loše
+				</label>
+				<label>
+					<input type="radio" name="ease" value="vrlo loše">
+				Vrlo loše
+				</label>
+			</div>
+		<br>
+		    <button type="submit">Pošalji</button> <br>
+			<button type="button" onclick="alert('Hvala na ispunjavanju ankete!')">Klikni me:)</button>
+	</form>
+</body>
+</html>
+	

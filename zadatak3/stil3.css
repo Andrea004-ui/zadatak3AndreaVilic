@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*CSS Document*/
+
+p{
+	color:black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia,, "serif";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	width: 1400px;
+	background-color: cadetblue;
+	opacity: 0.9;
+	padding: 20px
+	text-align: center
+}
+body{
+	background-color: lightblue;
+	font-family: "Arima", sans-serif;
+} 
+.for-beginning li{
+	display: inline;
+}
+span{
+			font-weight:bold;
+			color:black;
+			font-style: italic;
+			font-family: Courier New;
+			text-shadow: 2px 2px grey;
+			}
+			img{
+			float: right;
+	}
+ol{
+	list-style-type: upper-roman;
+}
+form{
+	font-family:Comic sans MS;
+}
+input{
+	border:1px solid gray;
+}
+button:active {
+    background-color: cadetblue;
+}
+a:hover {
+    color: #D6A3B2;
+}
+input:focus {
+	outline: none;
+    border: 3px solid cadetblue;
+}
+button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+button:hover {
+    background-color: #D6A3B2;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
